@@ -1,1 +1,1 @@
-# AI.github.io
+# AI
