@@ -1,0 +1,505 @@
+<svg id="mermaid-1582862082755" width="291.74998474121094" xmlns="http://www.w3.org/2000/svg" height="192.50000762939453" viewBox="-10 -10 201.16665649414062 172.50000762939453"><style>
+
+
+
+#mermaid-1582862082755 .label {
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  color: #333; }
+
+#mermaid-1582862082755 .label text {
+  fill: #333; }
+
+#mermaid-1582862082755 .node rect,
+#mermaid-1582862082755 .node circle,
+#mermaid-1582862082755 .node ellipse,
+#mermaid-1582862082755 .node polygon,
+#mermaid-1582862082755 .node path {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1582862082755 .node .label {
+  text-align: center; }
+
+#mermaid-1582862082755 .node.clickable {
+  cursor: pointer; }
+
+#mermaid-1582862082755 .arrowheadPath {
+  fill: #333333; }
+
+#mermaid-1582862082755 .edgePath .path {
+  stroke: #333333;
+  stroke-width: 1.5px; }
+
+#mermaid-1582862082755 .edgeLabel {
+  background-color: #e8e8e8;
+  text-align: center; }
+
+#mermaid-1582862082755 .cluster rect {
+  fill: #ffffde;
+  stroke: #aaaa33;
+  stroke-width: 1px; }
+
+#mermaid-1582862082755 .cluster text {
+  fill: #333; }
+
+#mermaid-1582862082755 div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 12px;
+  background: #ffffde;
+  border: 1px solid #aaaa33;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+#mermaid-1582862082755 .actor {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1582862082755 text.actor {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1582862082755 .actor-line {
+  stroke: grey; }
+
+#mermaid-1582862082755 .messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1582862082755 .messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1582862082755 #arrowhead {
+  fill: #333; }
+
+#mermaid-1582862082755 .sequenceNumber {
+  fill: white; }
+
+#mermaid-1582862082755 #sequencenumber {
+  fill: #333; }
+
+#mermaid-1582862082755 #crosshead path {
+  fill: #333 !important;
+  stroke: #333 !important; }
+
+#mermaid-1582862082755 .messageText {
+  fill: #333;
+  stroke: none; }
+
+#mermaid-1582862082755 .labelBox {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1582862082755 .labelText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1582862082755 .loopText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1582862082755 .loopLine {
+  stroke-width: 2;
+  stroke-dasharray: '2 2';
+  stroke: #CCCCFF; }
+
+#mermaid-1582862082755 .note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+
+#mermaid-1582862082755 .noteText {
+  fill: black;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 14px; }
+
+#mermaid-1582862082755 .activation0 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1582862082755 .activation1 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1582862082755 .activation2 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+
+#mermaid-1582862082755 .mermaid-main-font {
+  font-family: "trebuchet ms", verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1582862082755 .section {
+  stroke: none;
+  opacity: 0.2; }
+
+#mermaid-1582862082755 .section0 {
+  fill: rgba(102, 102, 255, 0.49); }
+
+#mermaid-1582862082755 .section2 {
+  fill: #fff400; }
+
+#mermaid-1582862082755 .section1,
+#mermaid-1582862082755 .section3 {
+  fill: white;
+  opacity: 0.2; }
+
+#mermaid-1582862082755 .sectionTitle0 {
+  fill: #333; }
+
+#mermaid-1582862082755 .sectionTitle1 {
+  fill: #333; }
+
+#mermaid-1582862082755 .sectionTitle2 {
+  fill: #333; }
+
+#mermaid-1582862082755 .sectionTitle3 {
+  fill: #333; }
+
+#mermaid-1582862082755 .sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+
+#mermaid-1582862082755 .grid .tick {
+  stroke: lightgrey;
+  opacity: 0.8;
+  shape-rendering: crispEdges; }
+#mermaid-1582862082755   .grid .tick text {
+    font-family: 'trebuchet ms', verdana, arial;
+    font-family: var(--mermaid-font-family); }
+
+#mermaid-1582862082755 .grid path {
+  stroke-width: 0; }
+
+
+#mermaid-1582862082755 .today {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px; }
+
+
+
+#mermaid-1582862082755 .task {
+  stroke-width: 2; }
+
+#mermaid-1582862082755 .taskText {
+  text-anchor: middle;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1582862082755 .taskText:not([font-size]) {
+  font-size: 11px; }
+
+#mermaid-1582862082755 .taskTextOutsideRight {
+  fill: black;
+  text-anchor: start;
+  font-size: 11px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1582862082755 .taskTextOutsideLeft {
+  fill: black;
+  text-anchor: end;
+  font-size: 11px; }
+
+
+#mermaid-1582862082755 .task.clickable {
+  cursor: pointer; }
+
+#mermaid-1582862082755 .taskText.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+#mermaid-1582862082755 .taskTextOutsideLeft.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+#mermaid-1582862082755 .taskTextOutsideRight.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+
+#mermaid-1582862082755 .taskText0,
+#mermaid-1582862082755 .taskText1,
+#mermaid-1582862082755 .taskText2,
+#mermaid-1582862082755 .taskText3 {
+  fill: white; }
+
+#mermaid-1582862082755 .task0,
+#mermaid-1582862082755 .task1,
+#mermaid-1582862082755 .task2,
+#mermaid-1582862082755 .task3 {
+  fill: #8a90dd;
+  stroke: #534fbc; }
+
+#mermaid-1582862082755 .taskTextOutside0,
+#mermaid-1582862082755 .taskTextOutside2 {
+  fill: black; }
+
+#mermaid-1582862082755 .taskTextOutside1,
+#mermaid-1582862082755 .taskTextOutside3 {
+  fill: black; }
+
+
+#mermaid-1582862082755 .active0,
+#mermaid-1582862082755 .active1,
+#mermaid-1582862082755 .active2,
+#mermaid-1582862082755 .active3 {
+  fill: #bfc7ff;
+  stroke: #534fbc; }
+
+#mermaid-1582862082755 .activeText0,
+#mermaid-1582862082755 .activeText1,
+#mermaid-1582862082755 .activeText2,
+#mermaid-1582862082755 .activeText3 {
+  fill: black !important; }
+
+
+#mermaid-1582862082755 .done0,
+#mermaid-1582862082755 .done1,
+#mermaid-1582862082755 .done2,
+#mermaid-1582862082755 .done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+#mermaid-1582862082755 .doneText0,
+#mermaid-1582862082755 .doneText1,
+#mermaid-1582862082755 .doneText2,
+#mermaid-1582862082755 .doneText3 {
+  fill: black !important; }
+
+
+#mermaid-1582862082755 .crit0,
+#mermaid-1582862082755 .crit1,
+#mermaid-1582862082755 .crit2,
+#mermaid-1582862082755 .crit3 {
+  stroke: #ff8888;
+  fill: red;
+  stroke-width: 2; }
+
+#mermaid-1582862082755 .activeCrit0,
+#mermaid-1582862082755 .activeCrit1,
+#mermaid-1582862082755 .activeCrit2,
+#mermaid-1582862082755 .activeCrit3 {
+  stroke: #ff8888;
+  fill: #bfc7ff;
+  stroke-width: 2; }
+
+#mermaid-1582862082755 .doneCrit0,
+#mermaid-1582862082755 .doneCrit1,
+#mermaid-1582862082755 .doneCrit2,
+#mermaid-1582862082755 .doneCrit3 {
+  stroke: #ff8888;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+#mermaid-1582862082755 .milestone {
+  transform: rotate(45deg) scale(0.8, 0.8); }
+
+#mermaid-1582862082755 .milestoneText {
+  font-style: italic; }
+
+#mermaid-1582862082755 .doneCritText0,
+#mermaid-1582862082755 .doneCritText1,
+#mermaid-1582862082755 .doneCritText2,
+#mermaid-1582862082755 .doneCritText3 {
+  fill: black !important; }
+
+#mermaid-1582862082755 .activeCritText0,
+#mermaid-1582862082755 .activeCritText1,
+#mermaid-1582862082755 .activeCritText2,
+#mermaid-1582862082755 .activeCritText3 {
+  fill: black !important; }
+
+#mermaid-1582862082755 .titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: black;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1582862082755 g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 10px; }
+#mermaid-1582862082755   g.classGroup text .title {
+    font-weight: bolder; }
+
+#mermaid-1582862082755 g.clickable {
+  cursor: pointer; }
+
+#mermaid-1582862082755 g.classGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1582862082755 g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1582862082755 .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1582862082755 .classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+#mermaid-1582862082755 .relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1582862082755 .dashed-line {
+  stroke-dasharray: 3; }
+
+#mermaid-1582862082755 #compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1582862082755 #compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1582862082755 #aggregationStart {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1582862082755 #aggregationEnd {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1582862082755 #dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1582862082755 #dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1582862082755 #extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1582862082755 #extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1582862082755 .commit-id,
+#mermaid-1582862082755 .commit-msg,
+#mermaid-1582862082755 .branch-label {
+  fill: lightgrey;
+  color: lightgrey;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1582862082755 .pieTitleText {
+  text-anchor: middle;
+  font-size: 25px;
+  fill: black;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1582862082755 .slice {
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1582862082755 g.stateGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-size: 10px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1582862082755 g.stateGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-size: 10px; }
+
+#mermaid-1582862082755 g.stateGroup .state-title {
+  font-weight: bolder;
+  fill: black; }
+
+#mermaid-1582862082755 g.stateGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1582862082755 g.stateGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1582862082755 .transition {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1582862082755 .stateGroup .composit {
+  fill: white;
+  border-bottom: 1px; }
+
+#mermaid-1582862082755 .stateGroup .alt-composit {
+  fill: #e0e0e0;
+  border-bottom: 1px; }
+
+#mermaid-1582862082755 .state-note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+#mermaid-1582862082755   .state-note text {
+    fill: black;
+    stroke: none;
+    font-size: 10px; }
+
+#mermaid-1582862082755 .stateLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1582862082755 .stateLabel text {
+  fill: black;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+:root {
+  --mermaid-font-family: '"trebuchet ms", verdana, arial';
+  --mermaid-font-family: "Comic Sans MS", "Comic Sans", cursive; }
+
+:root { --mermaid-font-family: "trebuchet ms", verdana, arial;}</style><style>#mermaid-1582862082755 {
+    color: rgb(0, 0, 0);
+    font: ;
+  }</style><g></g><defs><marker id="extensionStart" class="extension" refX="0" refY="7" markerWidth="190" markerHeight="240" orient="auto"><path d="M 1,7 L18,13 V 1 Z"></path></marker></defs><defs><marker id="extensionEnd" refX="19" refY="7" markerWidth="20" markerHeight="28" orient="auto"><path d="M 1,1 V 13 L18,7 Z"></path></marker></defs><defs><marker id="compositionStart" class="extension" refX="0" refY="7" markerWidth="190" markerHeight="240" orient="auto"><path d="M 18,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="compositionEnd" refX="19" refY="7" markerWidth="20" markerHeight="28" orient="auto"><path d="M 18,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="aggregationStart" class="extension" refX="0" refY="7" markerWidth="190" markerHeight="240" orient="auto"><path d="M 18,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="aggregationEnd" refX="19" refY="7" markerWidth="20" markerHeight="28" orient="auto"><path d="M 18,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="dependencyStart" class="extension" refX="0" refY="7" markerWidth="190" markerHeight="240" orient="auto"><path d="M 5,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="dependencyEnd" refX="19" refY="7" markerWidth="20" markerHeight="28" orient="auto"><path d="M 18,7 L9,13 L14,7 L9,1 Z"></path></marker></defs><g id="classid-Artificial_Intelligence-1386" class="classGroup " transform="translate(35.241661071777344,0 )"><rect x="0" y="0" width="110.68333435058594" height="42.500003814697266"></rect><text y="15" x="0"><tspan class="title" x="5">Artificial_Intelligence</tspan></text><line x1="0" y1="21.666666984558105" y2="21.666666984558105" x2="110.68333435058594"></line><text x="5" y="31.666666984558105" fill="white" class="classText"><tspan x="5">*****Definition*****</tspan></text><line x1="0" y1="38.33333396911621" y2="38.33333396911621" x2="110.68333435058594"></line><text x="5" y="53.33333396911621" fill="white" class="classText"></text></g><g id="classid-Thinking-1387" class="classGroup " transform="translate(0,92.50000381469727 )"><rect x="0" y="0" width="65.58333206176758" height="60.000003814697266"></rect><text y="15" x="0"><tspan class="title" x="11.933330535888672">Thinking</tspan></text><line x1="0" y1="21.666666984558105" y2="21.666666984558105" x2="65.58332824707031"></line><text x="5" y="31.666666984558105" fill="white" class="classText"><tspan x="5">Humanly</tspan></text><line x1="0" y1="38.33333396911621" y2="38.33333396911621" x2="65.58332824707031"></line><text x="5" y="53.33333396911621" fill="white" class="classText"><tspan x="5">Rationally()</tspan></text></g><g id="classid-Acting-1388" class="classGroup " transform="translate(115.58332824707031,92.50000381469727 )"><rect x="0" y="0" width="65.58333206176758" height="60.000003814697266"></rect><text y="15" x="0"><tspan class="title" x="17.224997520446777">Acting</tspan></text><line x1="0" y1="21.666666984558105" y2="21.666666984558105" x2="65.58332824707031"></line><text x="5" y="31.666666984558105" fill="white" class="classText"><tspan x="5">Humanly</tspan></text><line x1="0" y1="38.33333396911621" y2="38.33333396911621" x2="65.58332824707031"></line><text x="5" y="53.33333396911621" fill="white" class="classText"><tspan x="5">Rationally()</tspan></text></g><path d="M64.03040019932367,42.500003814697266L58.823944186692245,46.66667048136393C53.61748817406083,50.8333371480306,43.20457614879799,59.16667048136393,37.99812013616657,67.50000381469727C32.791664123535156,75.8333371480306,32.791664123535156,84.16667048136394,32.791664123535156,88.3333371480306L32.791664123535156,92.50000381469727" id="edge538" class="relation" marker-start="url(#extensionStart)"></path><path d="M117.13625629481696,42.500003814697266L122.34271230744838,46.66667048136393C127.5491683200798,50.8333371480306,137.96208034534263,59.16667048136393,143.16853635797403,67.50000381469727C148.37499237060547,75.8333371480306,148.37499237060547,84.16667048136394,148.37499237060547,88.3333371480306L148.37499237060547,92.50000381469727" id="edge539" class="relation" marker-start="url(#extensionStart)"></path></svg>
